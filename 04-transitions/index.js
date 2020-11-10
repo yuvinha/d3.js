@@ -57,7 +57,7 @@ const update = (data) => {
   rects
     .attr("width", x.bandwidth)
     .attr("x", (d) => x(d.name))
-    .attr("fill", "orangered");
+    .attr("fill", "mediumseagreen");
   // .transition(t)
   // .attr("height", (d) => graphHeight - y(d.orders))
   // .attr("y", (d) => y(d.orders));
@@ -70,7 +70,7 @@ const update = (data) => {
     .attr("height", 0)
     .attr("x", (d) => x(d.name))
     .attr("y", graphHeight)
-    .attr("fill", "orangered")
+    .attr("fill", "mediumseagreen")
     .merge(rects)
     .transition(t)
     .attrTween("width", widthTween)
@@ -86,7 +86,7 @@ const update = (data) => {
     .selectAll("text")
     .attr("transform", "rotate(-40)")
     .attr("text-anchor", "end")
-    .attr("fill", "orangered");
+    .attr("fill", "mediumseagreen");
 };
 
 /**

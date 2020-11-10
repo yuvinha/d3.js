@@ -2,6 +2,7 @@ const form = document.querySelector("form");
 const name = document.getElementById("name");
 const cost = document.getElementById("cost");
 const error = document.getElementById("error");
+const btn = document.querySelector("button");
 
 form.addEventListener("submit", (e) => {
   // Prevent the default behavior of submit event
@@ -32,4 +33,12 @@ form.addEventListener("submit", (e) => {
   } else {
     error.textContent = "Please enter values before submitting";
   }
+});
+
+btn.addEventListener("mouseover", function () {
+  this.classList.add("darken-1");
+});
+
+btn.addEventListener("mouseleave", function () {
+  this.classList.remove("darken-1");
 });

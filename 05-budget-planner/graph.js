@@ -1,3 +1,4 @@
+// const dims = { width: 300, height: 300, radius: 150 }; // Dimensions
 const dims = { width: 300, height: 300, radius: 150 }; // Dimensions
 const cent = { x: dims.width / 2 + 5, y: dims.height / 2 + 5 }; // Center of the pie chart
 
@@ -46,7 +47,7 @@ const update = (data) => {
   const paths = graph.selectAll("path").data(pie(data));
 
   // Remove the exit selections
-  paths.exit().remove().transition().duration(500).attrTween("d", arcTweenExit);
+  paths.exit().transition().duration(500).attrTween("d", arcTweenExit).remove();
 
   // Update the current DOM paths
   paths
