@@ -5,14 +5,14 @@ Course exercises and projects for the The Net Ninja (Shaun Pelling)'s [Build Dat
 ## Apps
 > Each project directory contains screenshots/GIFs.
 
-1. **[Data with D3](/03-data-with-D3)** 
+1. **[Data with D3](/01-data-with-D3)** 
     - **Topics**: Joining data to the DOM elements, Getting data from the external document
     
-2. **[Scale bar charts](/04-scale-bar-charts)**
+2. **[Scale bar charts](/02-scale-bar-charts)**
     - **Topics**: Creating a Linear scale, Band scale, and Bar chart 
 
-3. **[Firestore & D3 update patterns](/05-firestore-database)**
+3. **[Firestore & D3 update patterns](/03-firestore-and-update-patterns)**
     - **Topics**: Setting Firestore as a real-time database, Updating visualizations in real time
     
-3. **[Transitions](/06-transition)**
+3. **[Transitions](/04-transitions)**
     - **Topics**: Introduction to D3 transitions and Tweens
