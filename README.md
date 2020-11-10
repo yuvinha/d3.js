@@ -16,6 +16,6 @@ Course exercises and projects for the The Net Ninja (Shaun Pelling)'s [Build Dat
 4. **[Transitions](/04-transitions)**
     - **Topics**: Introduction to D3 transitions and Tweens
 
-5. **[Pjt01-Budget Planner](/05-budget-planner)**
+5. **[PJT01-Budget Planner](/05-budget-planner)**
     - **Topics**: Pie chart, Add an item to the Firestore database, Custom tweens to create/update/delete an entry 
     - **Libraries/Plugins**: [Materialize](https://materializecss.com/),[d3 SVG Legend](https://d3-legend.susielu.com/) 
