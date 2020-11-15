@@ -1,6 +1,8 @@
 # Data Visualization with d3.js and Firebase
 Course exercises and projects for the The Net Ninja (Shaun Pelling)'s [Build Data Visualizations with D3.js &amp; Firebase](https://www.udemy.com/course/build-data-uis-with-d3-firebase/) course on Udemy
-> Status: In Progress
+
+- Course Info: 106 lectures, 10h 20m videos
+- Progress: 60% completed
 
 ## Apps
 
